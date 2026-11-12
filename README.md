@@ -17,3 +17,7 @@ The tiles are made from GSHHG's official shapefiles by `mapforge gshhg-pack`, wi
 Coastline from GSHHG 2.3.7, the Global Self-consistent, Hierarchical, High-resolution Geography Database: Wessel, P., and W. H. F. Smith (1996), A global, self-consistent, hierarchical, high-resolution shoreline database, J. Geophys. Res., 101(B4), 8741-8743; archived as NOAA NCEI Accession 0304143, doi:10.25921/fe3s-bq64.
 
 GSHHG is distributed under the GNU Lesser General Public License, version 3 or later: see `LICENSE.TXT` and `COPYING.LESSERv3`, from GSHHG's own distribution. These tiles are GSHHG's data in another format, under the same licence.
+
+## The lakes
+
+The folder `hydrolakes` holds the lakes of HydroLAKES in tiles of the same grid, under their own licence, CC BY 4.0: see `hydrolakes/README.md` and `hydrolakes/LICENSE.md`. From version 0.61 MapForge reads the coast from levels 1 and 5 only, and the lakes from there.
