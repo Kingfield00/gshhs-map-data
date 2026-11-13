@@ -21,3 +21,7 @@ GSHHG is distributed under the GNU Lesser General Public License, version 3 or l
 ## The lakes
 
 The folder `hydrolakes` holds the lakes of HydroLAKES in tiles of the same grid, under their own licence, CC BY 4.0: see `hydrolakes/README.md` and `hydrolakes/LICENSE.md`. From version 0.61 MapForge reads the coast from levels 1 and 5 only, and the lakes from there.
+
+## The rivers
+
+The folder `naturalearth` holds the rivers and lakes' centre lines of Natural Earth 5.0.0 at 1:10 million in tiles of the same grid, in the public domain: see `naturalearth/README.md` and `naturalearth/LICENSE.md`. From version 0.65 MapForge follows them when it works out a map's rivers from its heights. Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com.
